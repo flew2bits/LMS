@@ -20,6 +20,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>CSharp_MARC.snk</AssemblyOriginatorKeyFile>
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
@@ -34,13 +35,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="MARC21slim.xsd">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Remove="MARC21slim.xsd" />
     <None Update="Properties\CatCardIcon.png" Pack="true" PackagePath="" />
-    <None Include="..\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>

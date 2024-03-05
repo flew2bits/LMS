@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CSharp_MARC\CSharp_MARC.csproj" />
-      <ProjectReference Include="..\CSharp_MARC\CSharp_MARC\CSharp_MARC.csproj" />
     </ItemGroup>
 
 </Project>
