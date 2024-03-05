@@ -1,0 +1,31 @@
+@page
+@using LMS
+@model LMS.Pages.Index
+
+@{
+}
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" asp-for="Marc"/>
+    <button type="submit">Parse</button>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>ISBN</th>
+        <th>Bar Code</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var entry in Model.Records)
+    {
+        <tr>
+            <td>@entry.FullTitle()</td>
+            <td>@entry.ISBN()</td>
+            <td>@entry.JcpsBarCode()</td>
+        </tr>
+    }
+    </tbody>
+    </table>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LaknES5gjaHL2XRIctfN0yhKsMvJdCRlkQBFF//JesXdgaJ4C4tHE7eCzNETZzF+i6gu6Q84LkM6f8dRPQD9QQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tander3\\RiderProjects\\LMS\\CSharp_MARC\\CSharp_MARC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tander3\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tander3\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

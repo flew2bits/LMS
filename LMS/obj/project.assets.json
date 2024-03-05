@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CSharp_MARC/2018.7.6": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CSharp_MARC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharp_MARC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharp_MARC/2018.7.6": {
+      "type": "project",
+      "path": "../CSharp_MARC/CSharp_MARC/CSharp_MARC.csproj",
+      "msbuildProject": "../CSharp_MARC/CSharp_MARC/CSharp_MARC.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CSharp_MARC >= 2018.7.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tander3\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tander3\\RiderProjects\\LMS\\LMS\\LMS.csproj",
+      "projectName": "LMS",
+      "projectPath": "C:\\Users\\tander3\\RiderProjects\\LMS\\LMS\\LMS.csproj",
+      "packagesPath": "C:\\Users\\tander3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tander3\\RiderProjects\\LMS\\LMS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\tander3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://jcpsit.pkgs.visualstudio.com/_packaging/JCPSIT/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\tander3\\RiderProjects\\LMS\\CSharp_MARC\\CSharp_MARC.csproj": {
+              "projectPath": "C:\\Users\\tander3\\RiderProjects\\LMS\\CSharp_MARC\\CSharp_MARC.csproj"
+            },
+            "C:\\Users\\tander3\\RiderProjects\\LMS\\CSharp_MARC\\CSharp_MARC\\CSharp_MARC.csproj": {
+              "projectPath": "C:\\Users\\tander3\\RiderProjects\\LMS\\CSharp_MARC\\CSharp_MARC\\CSharp_MARC.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

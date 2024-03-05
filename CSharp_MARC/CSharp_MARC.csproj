@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{D76C0576-2B55-4B45-82F5-97FAD347676C}</ProjectGuid>
+    <RootNamespace>MARC</RootNamespace>
+    <AssemblyName>CSharp_MARC</AssemblyName>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <Version>2018.07.06.0</Version>
+    <Company>Bound To Stay Bound Books</Company>
+    <Authors></Authors>
+    <Description>C# class structures for reading, writing, and manipulating MARC21 records.</Description>
+    <Copyright>Copyright © Mattie Schraeder and Bound To Stay Bound Books 2009-2022</Copyright>
+    <PackageProjectUrl>https://csharpmarc.net/</PackageProjectUrl>
+    <PackageIcon>Properties\CatCardIcon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/afrozenpeach/CSharp_MARC</RepositoryUrl>
+    <PackageTags>marc;code4lib;csharp-marc;marcxml-record;marc-editor;rda;marc-records</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>CSharp_MARC.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MARC21slim.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MARC21slim.xsd" />
+    <None Update="Properties\CatCardIcon.png" Pack="true" PackagePath="" />
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
