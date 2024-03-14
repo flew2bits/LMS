@@ -10,4 +10,114 @@
       <ProjectReference Include="..\CSharp_MARC\CSharp_MARC.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\js\" />
+      <Folder Include="wwwroot\lib\bootstrap\dist\" />
+      <Folder Include="wwwroot\lib\jquery\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BarCode" Version="2024.3.2" />
+      <PackageReference Include="bootstrap" Version="5.3.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css</Link>
+      </Content>
+      <Content Include="..\..\..\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css.map">
+        <Link>wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map</Link>
+      </Content>
+    </ItemGroup>
+
 </Project>
